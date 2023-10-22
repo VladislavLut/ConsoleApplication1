@@ -6,17 +6,17 @@ int main()
 {
 	int n, k;
 
-	std::cin >> n >> k;
+	cin >> n >> k;
 
 	if (n < k)
 
-		std::cout << "first is less";
+		cout << "first is less";
 
 	else if (n > k)
 
-		std::cout << "second is less";
+		cout << "second is less";
 
 	else
 
-		std::cout << "equal";
+		cout << "equal";
 }
