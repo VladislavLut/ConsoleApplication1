@@ -6,17 +6,17 @@ int main()
 {
 	int n;
 
-	std::cin >> n;
+	cin >> n;
 
 	if (n > 0)
 
-		std::cout << "positive";
+		cout << "positive";
 
 	else if (n < 0)
 
-		std::cout << "negative";
+		cout << "negative";
 
 	else
 
-		std::cout << "zero";
+		cout << "zero";
 }
