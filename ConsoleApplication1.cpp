@@ -6,5 +6,9 @@ int main()
 {
 	int n;
 
-	cin >>(n % 2 )
+	cin >> n;
+	if (n % 2 = 0)
+		cout << "even";
+	else
+		cout << "odd";
 }
